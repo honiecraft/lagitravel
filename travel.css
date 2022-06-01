@@ -1,0 +1,103 @@
+.intro {
+    position: relative;
+    text-align: center;
+    padding: 2% 15%;
+}
+.intro p span .th {
+    font-weight:800 ;
+}
+.intro h1 {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 2% 0 5%;
+    color:#707070;
+    border-bottom: 1px solid gray;
+}
+.intro span {
+    color: #C0C70A;
+}
+.the > .container-fluid {
+    margin: 0;
+    padding: 5% 0;
+}
+.the [class*=col-] {
+    padding: 6px;
+}
+.the img {
+    width: 100%;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.ten-the h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 5% 0 2% 5%;
+    white-space: wrap;
+}
+.ten-the h1 span {
+    white-space: nowrap;
+}
+.ten-the p {
+    font-size: 25px;
+    padding: 0 5%;
+    text-align: justify;
+}
+.container-fluid .row {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid #pics {
+    padding: 0 5%;
+}
+#pics img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+}
+#cb>img,
+#tc>img,
+#d>img {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .the img {
+        width: 50%;
+        margin: 0 2% 1% 5%;
+        float: left;
+    }
+    #cb>img,
+    #tc>img,
+    #d>img {
+        float: right;
+        margin: 0 5% 1% 2%;
+    }
+    .ten-the h1 {
+        font-size: 5vw;
+        font-weight: 600;
+        padding: 0 5%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .the img {
+        width: 50%;
+        margin: 0 2% 1% 5%;
+        float: left;
+    }
+    #cb>img,
+    #tc>img,
+    #d>img {
+        float: right;
+        margin: 0 5% 1% 2%;
+    }
+    .ten-the h1 {
+        font-size: 5vw;
+        font-weight: 600;
+        padding: 0 5%;
+    }
+}

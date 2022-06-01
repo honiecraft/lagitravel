@@ -1,0 +1,72 @@
+.intro {
+    position: relative;
+    text-align: center;
+    padding: 2% 15%;
+}
+.intro p span .th {
+    font-weight:800 ;
+}
+.intro h1 {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 2% 0 5%;
+    color:#707070;
+    border-bottom: 1px solid rgb(214, 200, 200);
+}
+.intro span {
+    color: #C0C70A;
+}
+.the .row {
+    padding: 0 10%;
+}
+.the [class*=col-] {
+    padding: 10px;
+}
+.the img {
+    width: 100%;
+}
+.the #hai-san img {
+    border-top-left-radius: 25%;
+}
+.the #cha-lui img {
+    border-top-right-radius: 25%;
+}
+.the #rang-muc img {
+    border-bottom-left-radius: 25%;
+}
+.the #banh-can img {
+    border-bottom-right-radius: 25%;
+}
+.the h1 span {
+    font-family: 'Elephant', sans-serif;
+    font-size: 80px;
+}
+.the h1 {
+    padding-top: 5%;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.the p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 992px) {
+    .the .row {
+        padding: 0 5%;
+    }
+    .the [class*=col-] {
+        padding: 20px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .the .row {
+        padding: 0 5%;
+    }
+    .the [class*=col-] {
+        padding: 10px;
+    }
+
+}

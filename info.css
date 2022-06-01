@@ -1,0 +1,251 @@
+.banner .script {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 7vw;
+}
+.banner .script span{
+    font-size: 12vw;
+}
+
+.banner_button {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+    color:#C0C70A;
+    width: fit-content;
+    justify-content:center;
+}
+.banner_button .phuong-tien,
+.banner_button .noi-o  {
+    white-space: nowrap;
+    background-color:rgba(2,2,2,0);
+    padding: 10px 16px;
+    margin:0 2%;
+    border: 2px solid #C0C70A;
+    border-radius: 25px;
+}
+.banner_button .phuong-tien a,
+.banner_button .noi-o a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.banner_button .noi-o a {
+    padding: 10px 45px;
+}
+.banner_button :hover {
+    background-color: #C0C70A;
+    color: white;
+}
+.intro {
+    position: relative;
+    text-align: center;
+    padding: 2% 0;
+}
+.intro p span {
+    font-weight:800 ;
+    color: #C0C70A;
+}
+.intro p {
+    margin: 0 20%;
+    padding: 2% 0 5%;
+    border-bottom: 1px solid rgb(214, 200, 200);
+}
+#phuong-tien .trans h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color:#C0C70A;
+    text-align: center;
+}
+#phuong-tien h1 span {
+    font-weight: 500;
+}
+#phuong-tien .row {
+    padding: 5% 20% 0 10%;
+}
+#phuong-tien .row #content {
+    align-self:center;
+}
+#phuong-tien .row #num {
+    align-self:center;
+}
+#phuong-tien [class*="col-"] #content {
+    display: flex;
+    align-items: flex-end;
+}
+#phuong-tien #num h1 {
+    font-family: 'Elephant', sans-serif;
+    font-size: 30vw;
+    padding: 0;
+    margin: 0;
+}
+#phuong-tien #xe-khach,
+#phuong-tien #xe-bus {
+    text-align: left;
+}
+#phuong-tien #xe-khach #num,
+#phuong-tien #xe-bus #num{
+    text-align: left;
+}
+#phuong-tien #xe-may,
+#phuong-tien #thue-xe-may {
+    text-align: right;
+}
+#phuong-tien #xe-may #num,
+#phuong-tien #thue-xe-may #num {
+    text-align: right;
+}
+#phuong-tien #content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 800;
+    border-bottom: 2px solid #C0C70A;
+    white-space: nowrap;
+    padding-bottom: 2%;
+}
+.break-img .row {
+    margin: 2% 2% 5% 2%;
+}
+.break-img [class*=col-] {
+    padding: 6px;
+}
+#pics img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+}
+#noi-o .places h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color:#C0C70A;
+    text-align: center;
+    padding-top: 2%;
+    border-top: 1px solid rgb(214, 200, 200);
+    margin: 0 20%;
+}
+#noi-o .cir .resort,
+#noi-o .cir .khach-san,
+#noi-o .cir .home-stay {
+    width: 100vw;
+    height: 100vw;
+    margin: 5% auto;
+    border-radius: 50%;
+    position: relative;
+}
+#noi-o .cir .resort {
+    background-color: white;
+    border: 2px solid #C0C70A;
+}
+.resort .cir-content {
+    color: black;
+}
+#noi-o .cir .khach-san {
+    background-color:#C0C70A;
+}
+.khach-san .cir-content {
+    color: white;
+}
+#noi-o .cir .home-stay {
+    background-color:black;
+}
+.home-stay .cir-content {
+    color:#C0C70A;
+}
+.cir-content {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+    padding: 10%;
+}
+.cir-content p {
+    font-size: 3vw;
+}
+.cir-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 8vw;
+    font-weight: 800;
+    padding: 5% 0;
+}
+@media screen and (min-width: 992px) {
+    .banner_button .phuong-tien,
+    .banner_button .noi-o  {
+        margin:0 5%;
+    }
+    #phuong-tien .trans h1 {
+        font-size: 5vw;
+    }
+    #phuong-tien .row #num {
+        display: flex;
+    }
+    #phuong-tien #xe-khach #num,
+    #phuong-tien #xe-bus #num{
+        text-align: right;
+    }
+    #phuong-tien #xe-khach #content h1,
+    #phuong-tien #xe-bus #content h1{
+        margin-right: 20%;
+    }
+    #phuong-tien #xe-may #content h1,
+    #phuong-tien #thue-xe-may #content h1{
+        margin-left: 20%;
+    }
+    #noi-o .places h1 {
+        font-size: 5vw;
+    }
+    #noi-o .cir .resort,
+    #noi-o .cir .khach-san,
+    #noi-o .cir .home-stay {
+        width: 70vw;
+        height: 70vw;
+    }
+    .cir-content p {
+        font-size: 2vw;
+    }
+}
+@media screen and (min-width: 768px) {
+    .banner_button .phuong-tien,
+    .banner_button .noi-o  {
+        margin:0 5%;
+    }
+    #phuong-tien .trans h1 {
+        font-size: 5vw;
+    }
+    #phuong-tien .row #num {
+        display: flex;
+    }
+    #phuong-tien #xe-may #num,
+    #phuong-tien #thue-xe-may #num {
+        text-align: left;
+    }
+    #phuong-tien #xe-khach #content h1,
+    #phuong-tien #xe-bus #content h1{
+        margin-right: 20%;
+    }
+    #phuong-tien #xe-may #content h1,
+    #phuong-tien #thue-xe-may #content h1{
+        margin-left: 20%;
+    }
+    #noi-o .places h1 {
+        font-size: 5vw;
+    }
+    #noi-o .cir .resort,
+    #noi-o .cir .khach-san,
+    #noi-o .cir .home-stay {
+        width: 80vw;
+        height: 80vw;
+    }
+    .cir-content p {
+        font-size: 3vw;
+    }
+}

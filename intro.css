@@ -1,0 +1,77 @@
+.intro {
+    position: relative;
+    text-align: center;
+    padding: 2% 15%;
+}
+.intro p span .th {
+    font-weight:800 ;
+}
+.intro h1 {
+    font-weight: 800;
+    font-size: 50px;
+    padding: 2% 0 5%;
+    color:#707070;
+    border-bottom: 1px solid gray;
+}
+.intro span {
+    color: #C0C70A;
+}
+.ten {
+    padding-top: 5%;
+}
+.ten .box {
+    background-color: #C0C70A;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+.box h2 {
+    font-size: 40px;
+}
+.ten [class*=col-] {
+    align-self: center;
+}
+.h-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    font-weight: 600;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+.gioi-thieu {
+    padding-top: 10%;
+}
+.gioi-thieu .box {
+    background-color: #C0C70A;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+.box h2 {
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+.gioi-thieu [class*=col-] {
+    align-self: center;
+}
+.ban-do .h-text {
+    padding: 5% 0 2%;
+}
+.ban-do .map {
+    background-color: #C0C70A;
+    margin: 2% 2% 10%;
+    padding:1%;
+}
+@media screen and (min-width: 992px) {
+    div .h-text {
+        writing-mode: vertical-lr;
+        -ms-writing-mode: bt-lr;
+    }
+    .gioi-thieu .h-text {
+        transform: rotate(180deg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
